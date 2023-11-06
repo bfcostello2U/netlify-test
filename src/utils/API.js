@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-let foo = undefined;
+const unusedVariable = undefined;
 
 const getUsers = () => {
   return axios.get('https://jsonplaceholder.typicode.com/users/');
